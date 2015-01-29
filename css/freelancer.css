@@ -102,7 +102,10 @@ header .intro-text .name {
     font-size: 2em;
     font-weight: 700;
 }
-
+header .intro-text .btn-outline{
+    color: #4B5267;
+    border: 2px solid #4B5267;
+}
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
@@ -125,7 +128,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 10px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -149,13 +152,18 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Pacifico', cursive;
     background: none repeat scroll 0% 0% rgb(46, 41, 78);
 }
 .navbar a{
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+.navbar .navbar-nav > li > a:hover, .navbar a.navbar-brand:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #FAE8EB;
+}
+.navbar a.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    text-transform: none;
+}
 .navbar a:focus {
     outline: 0;
 }
@@ -196,7 +204,10 @@ section.success {
         padding-top: 75px;
     }
 }
-
+#skills{
+    background: #CFD4C5;
+    color: #4B5267;
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -445,4 +456,16 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+.progress .progress-bar {
+    line-height: 1.2em;
+    font-size: 1em;
+    background-color: #4B5267;
+}
+.progress {
+    height: 20px;
+    width: 85%;
+}
+.mtm{
+    margin-top: 40px;
 }
