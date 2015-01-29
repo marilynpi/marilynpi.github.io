@@ -459,7 +459,8 @@ footer .footer-below {
 }
 .progress .progress-bar {
     line-height: 1.2em;
-    font-size: 1em;
+    font-size: 0.9em;
+    font-weight: 700;
     background-color: #4B5267;
 }
 .progress {
