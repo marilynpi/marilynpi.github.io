@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 body {
     overflow-x: hidden;
 }
@@ -58,12 +58,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #4B5267;
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
+    color: #4B5267;
+    background-color: #FAE8EB;
 }
 
 hr.star-primary {
@@ -71,8 +71,8 @@ hr.star-primary {
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
+    color: #4B5267;
+    background-color: #FAE8EB;
 }
 
 .img-centered {
@@ -81,8 +81,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #4B5267;
+    background: #FAE8EB;
 }
 
 header .container {
@@ -149,8 +149,11 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    background: none repeat scroll 0% 0% rgb(46, 41, 78);
+}
+.navbar a{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .navbar a:focus {
