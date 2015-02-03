@@ -9,7 +9,9 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin: 5px;
 }
 
 p.small {
@@ -106,7 +108,7 @@ header .intro-text .btn-outline{
     color: #4B5267;
     border: 2px solid #4B5267;
 }
-header .intro-text .skills {
+header .intro-text .skills.si{
     font-size: 1.25em;
     font-weight: 300;
 }
@@ -469,4 +471,16 @@ footer .footer-below {
 }
 .mtm{
     margin-top: 40px;
+}
+.b{
+    font-weight: 700;
+}
+#expertise .skills{
+    font-size: 18px;
+    text-align: left;
+    border-radius: 10px;
+    background: #DF928E;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
 }
